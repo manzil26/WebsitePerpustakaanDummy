@@ -1,0 +1,138 @@
+/* styles.css */
+
+/* Mengatur warna latar belakang dan warna teks utama */
+body {
+    background-color: #f5f3ff; /* Lavender sangat terang */
+    color: #4a4a4a; /* Warna abu-abu gelap untuk teks utama */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Font modern dan bersih */
+}
+
+/* Gaya untuk header */
+h3.text-center {
+    color: #7e57c2; /* Ungu pastel */
+    font-family: 'Georgia', serif; /* Memberikan kesan elegan */
+}
+
+/* Gaya card */
+.card {
+    background-color: #ffffff; /* Latar belakang putih untuk card */
+    border-radius: 10px; /* Membulatkan sudut */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+/* Header card */
+.card-header {
+    background-color: #d1c4e9; /* Lavender pastel */
+    color: #4a4a4a; /* Teks abu-abu gelap */
+    font-weight: bold;
+}
+
+/* Tombol untuk tambah data */
+.btn-success {
+    background-color: #b2dfdb; /* Warna mint pastel */
+    border-color: #b2dfdb; 
+    color: #004d40; /* Warna hijau gelap untuk teks */
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    background-color: #80cbc4; /* Mint lebih gelap saat hover */
+}
+
+.btn-danger {
+    background-color: #ef9a9a; /* Merah pastel */
+    border-color: #ef9a9a;
+    color: #c62828; /* Merah gelap untuk teks */
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #e57373; /* Merah lebih gelap saat hover */
+}
+
+/* Gaya modal */
+.modal-content {
+    border-radius: 10px;
+    background-color: #f8f5ff; /* Latar belakang modal lavender terang */
+}
+
+.modal-header {
+    background-color: #d1c4e9; /* Lavender pastel */
+    color: #4a4a4a; /* Warna abu-abu gelap */
+    font-weight: bold;
+}
+
+.modal-footer button {
+    border-radius: 5px;
+}
+
+/* Gaya tabel */
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; /* Border tabel abu-abu terang */
+}
+
+th {
+    background-color: #7e57c2; /* Header tabel ungu pastel */
+    color: rgb(5, 2, 2); /* Warna teks putih */
+}
+
+tr:nth-child(even) {
+    background-color: #f3e5f5; /* Warna baris genap lavender pucat */
+}
+
+tr:hover {
+    background-color: #ede7f6; /* Warna hover lebih terang */
+}
+
+/* Membuat tabel dapat digulir pada perangkat kecil */
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Mendukung scroll pada perangkat touch */
+}
+
+/* Memperbaiki font dan margin di perangkat kecil */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Ukuran font lebih kecil */
+        padding: 10px;
+    }
+
+    h3.text-center {
+        font-size: 18px; /* Ukuran heading lebih kecil */
+    }
+
+    .card {
+        margin-bottom: 20px; /* Jarak antar elemen */
+    }
+
+    table th, table td {
+        font-size: 12px; /* Ukuran teks tabel lebih kecil */
+        padding: 8px;
+    }
+
+    .btn {
+        font-size: 12px; /* Ukuran tombol lebih kecil */
+        padding: 5px 10px;
+    }
+}
+
+.card-header {
+    background-color: #b2dfdb; /* Warna lavender */
+    color: #4B0082; /* Warna teks ungu gelap */
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px; /* Sudut melengkung */
+    font-family: Arial, sans-serif; /* Font default */
+    font-size: 1.5em; /* Ukuran teks */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
